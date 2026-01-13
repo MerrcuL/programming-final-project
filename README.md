@@ -46,4 +46,4 @@ python -m uvicorn main:app --reload
 Tasks are stored in tasks.txt in **JSON Lines** format:
 
 {"id": 1, "title": "Build FastAPI Project", "description": "Read docs, watch tutorial on YouTube", "completed": true}  
-{"id": 2, "title": "Build home server", "description": "Instal OMV on Debian", "completed": false}
+{"id": 2, "title": "Set up a home server", "description": "Instal OMV on Debian", "completed": false}
