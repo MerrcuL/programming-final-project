@@ -8,6 +8,7 @@ fastapi-tasks/
 ├── main.py # Application logic and API endpoints  
 ├── tasks.txt # Data storage (JSON Lines format)  
 ├── utily.py # Helper/Controler Functions 
+
 └── README.md # Project documentation  
 
 ## Setup & Installation
