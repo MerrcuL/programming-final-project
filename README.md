@@ -33,7 +33,7 @@ python -m uvicorn main:app --reload
 | **Method** | **Endpoint** | **Desciption**                                  |
 |------------|--------------|-------------------------------------------------|
 | GET        | /            | Check if API is running                         |
-| GET        | /tasks       | Get all tasks.  Optional ?completed=true param. |
+| GET        | /tasks       | Get all tasks.  Optional `?completed=true param`. |
 | GET        | /tasks{id}   | Get a task by specified ID.                     |
 | POST       | /tasks       | Create a new task.                              |
 | PUT        | /tasks{id}   | Completely update a task by ID.                 |
