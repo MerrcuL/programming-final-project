@@ -7,7 +7,7 @@ A RESTful API backend for managing tasks, using a plain text file (tasks.txt) fo
 fastapi-tasks/  
 ├── main.py # Application logic and API endpoints  
 ├── tasks.txt # Data storage (JSON Lines format)  
-├── utily.py # Helper/Controler Functions 
+├── utily.py # Helper/Controler Functions  
 └── README.md # Project documentation  
 
 ## Setup & Installation
