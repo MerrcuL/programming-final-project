@@ -30,15 +30,16 @@ python -m uvicorn main:app --reload
 
 ## API Endpoints
 
-| **Method** | **Endpoint** | **Description** |
-| GET | /   | Root check to confirm API is running. |
-| GET | /tasks | Get all tasks. Optional query param: ?completed=true. |
-| GET | /tasks/{id} | Get a specific task by ID. |
-| POST | /tasks | Create a new task (ID is auto-generated). |
-| PUT | /tasks/{id} | Update an existing task completely. |
-| DELETE | /tasks/{id} | Delete a specific task. |
-| DELETE | /tasks | Delete **all** tasks. |
-| GET | /tasks/stats | Get statistics (total, completed, percentage). |
+| **Method** | **Endpoint** | **Desciption**                                  |
+|------------|--------------|-------------------------------------------------|
+| GET        | /            | Check if API is running                         |
+| GET        | /tasks       | Get all tasks.  Optional ?completed=true param. |
+| GET        | /tasks{id}   | Get a task by specified ID.                     |
+| POST       | /tasks       | Create a new task.                              |
+| PUT        | /tasks{id}   | Completely update a task by ID.                 |
+| DELETE     | /tasks{ID}   | Delete a task by ID.                            |
+| DELETE     | /tasks       | Delete all tasks.                               |
+| GET        | /tasks/stats | Get statistics (total, completed, percentage).  |
 
 ## Data Format
 
