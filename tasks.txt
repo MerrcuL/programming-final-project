@@ -1,0 +1,2 @@
+{"id": 1, "title": "make a telegram bot", "description": "read docs, install on server", "completed": false}
+{"id": 2, "title": "set up a home server with omv on debian", "description": "watch tutorial on youtube", "completed": true}
