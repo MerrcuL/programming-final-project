@@ -17,7 +17,7 @@ fastapi-tasks/
     `pip install fastapi uvicorn`  
 
 - Ensure Storage File Exists:  
-    Make sure tasks.txt exists in the same folder.  
+    Make sure `tasks.txt` exists in the same folder.  
 
 ## Running the Application
 
@@ -31,27 +31,18 @@ python -m uvicorn main:app --reload
 ## API Endpoints
 
 | **Method** | **Endpoint** | **Description** |
-| --- | --- | --- |
 | GET | /   | Root check to confirm API is running. |
-| --- | --- | --- |
 | GET | /tasks | Get all tasks. Optional query param: ?completed=true. |
-| --- | --- | --- |
 | GET | /tasks/{id} | Get a specific task by ID. |
-| --- | --- | --- |
 | POST | /tasks | Create a new task (ID is auto-generated). |
-| --- | --- | --- |
 | PUT | /tasks/{id} | Update an existing task completely. |
-| --- | --- | --- |
 | DELETE | /tasks/{id} | Delete a specific task. |
-| --- | --- | --- |
 | DELETE | /tasks | Delete **all** tasks. |
-| --- | --- | --- |
 | GET | /tasks/stats | Get statistics (total, completed, percentage). |
-| --- | --- | --- |
 
 ## Data Format
 
 Tasks are stored in tasks.txt in **JSON Lines** format:
 
 {"id": 1, "title": "Build FastAPI Project", "description": "Read docs, watch tutorial on YouTube", "completed": true}  
-{"id": 2, "title": "Build home server", "description": "Instal OMV on debian and use docker containers", "completed": false}
+{"id": 2, "title": "Build home server", "description": "Instal OMV on Debian", "completed": false}
