@@ -13,11 +13,11 @@ fastapi-tasks/
 ## Setup & Installation
 
 - Install Dependencies:  
-    You need FastAPI and Uvicorn.  
+    FastAPI and Uvicorn are needed.  
     `pip install fastapi uvicorn`  
 
 - Ensure Storage File Exists:  
-    Make sure `tasks.txt` exists in the same folder.  
+    File `tasks.txt` must exist in the same folder.  
 
 ## Running the Application
 
@@ -26,7 +26,7 @@ Run the server using Uvicorn:
 `python -m uvicorn main:app --reload` 
 
 - The API will be available at: <http://127.0.0.1:8000>
-- Interactive Documentation: <http://127.0.0.1:8000/docs>
+- Interactive Documentation at: <http://127.0.0.1:8000/docs>
 
 ## API Endpoints
 
