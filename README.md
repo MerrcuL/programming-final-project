@@ -17,7 +17,7 @@ fastapi-tasks/
     `pip install fastapi uvicorn`  
 
 - Ensure Storage File Exists:  
-    File `tasks.txt` must exist in the same folder.  
+    File `tasks.txt` must be in the same folder.  
 
 ## Running the Application
 
